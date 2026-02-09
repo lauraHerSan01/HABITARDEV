@@ -2,9 +2,9 @@
   "name": "habitardev",
   "version": "1.0.0",
   "main": "index.js",
-   "scripts": {
-    "dev": "npx concurrently \"npm run dev --prefix NEST-back\" \"npm run dev --prefix NEXT-front\"",
-    "install-all": "npm install --prefix NEST-back && npm install --prefix NEXT-front"
+  "scripts": {
+    "dev": "npx concurrently \"npm run start:dev --prefix nest-back\" \"npm run dev --prefix next-front\"",
+    "install-all": "npm install --prefix nest-back && npm install --prefix next-front"
   },
   "keywords": [],
   "author": "",
