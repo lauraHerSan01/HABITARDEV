@@ -1,0 +1,6 @@
+node_modules/
+.env
+# No subas el contenido de los subproyectos, 
+# cada uno tiene su propio repo.
+/NEST-back
+/NEXT-front
