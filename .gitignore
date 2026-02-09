@@ -5,8 +5,8 @@ build/
 
 # Ignorar las carpetas de los proyectos para que no se suban al repo orquestador
 # (Ya que cada una tiene su propio repositorio de Git)
-/NEST-back/
-/NEXT-front/
+/nest-back/
+/next-front/
 
 # Archivos de sistema y logs
 .DS_Store
